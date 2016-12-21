@@ -10,7 +10,7 @@
 # If it is desired to run the container manually through the docker command-line, the following is an example
 # 'docker run -it --rm -v [host/directory]:[container/directory]:ro <user-name>/<project-name>'.
 
-FROM ubuntu:16.04
+FROM ubuntu:14.04
 MAINTAINER Kent Knox <kent.knox@amd>
 
 # Initialize the image
